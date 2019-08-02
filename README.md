@@ -8,7 +8,7 @@ Game Snake made in Java without additional libraries by Dominic Jiang
 
 ## How To Test This Game On Mac OS Or Windows
 
-1. Download Survive.jar 
+1. Download Snake.jar 
 
 2. Make sure you have JVM downloaded if not find ways to download for your operating system
 
