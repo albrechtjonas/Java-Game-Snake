@@ -26,4 +26,6 @@ Game Snake made in Java without additional libraries by Dominic Jiang
 
 yo know
 
+jus to make sure
+
 what this is
