@@ -1,6 +1,6 @@
 # Java-Game-Snake
 
-Game Survive made in Java without additional libraries by Dominic Jiang
+Game Snake made in Java without additional libraries by Dominic Jiang
 
 ## Contributor List:
 
