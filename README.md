@@ -23,3 +23,5 @@ Game Snake made in Java without additional libraries by Dominic Jiang
 # For More Games And Coding Projects
 
 # Please Follow dominicjiang On Github
+
+What is actually going on my boy this is absolutely the most boring thing
