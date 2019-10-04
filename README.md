@@ -23,10 +23,3 @@ Game Snake made in Java without additional libraries by Dominic Jiang
 # For More Games And Coding Projects
 
 # Please Follow dominicjiang On Github
-
-what
-is
-actually
-wrong
-with
-this
