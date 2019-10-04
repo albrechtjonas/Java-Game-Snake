@@ -42,3 +42,5 @@ I dont' knwo my man honestly
 this is sick
 
 oak bya DEQUN SHISHENME
+
+WHO ACTUALLY KNOPWS
