@@ -27,22 +27,5 @@ Game Snake made in Java without additional libraries by Dominic Jiang
 What is actually going on my boy this is absolutely the most boring thing
 
 I dont' know actually I mean this
- sometimes when there is words you don't understand you gonna to remember
 
-756786
-
-this is cool mydude
-
-and this is cool my dog
-
-How do you not like programming holy
-
-I dont' knwo my man honestly
-
-this is sick
-
-oak bya DEQUN SHISHENME
-
-2313
-
-WHO ACTUALLY KNOPWS
+I don't understand wha tyou are talking about
