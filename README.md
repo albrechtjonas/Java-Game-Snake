@@ -14,7 +14,7 @@ Game Snake made in Java without additional libraries by Dominic Jiang
 
 3. Open terminal and type java (space) -jar (space) and drag the executable jar file in and press enter 
 
-4. And the game should be ready to go
+4. And the game sho4uld be ready to go
 
 ## Command Center2
 1
