@@ -2,7 +2,7 @@
 
 Game Snake made in Java without additional libraries by Dominic Jiang
 
-## Contributor List:
+## Contributor List:214
 
 1. Dominic Jiang for the production of the game and game development
 
