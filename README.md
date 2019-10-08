@@ -9,7 +9,7 @@ Game Snake made in Java without additional libraries by Dominic Jiang
 ## How To Test This Game On Mac OS Or Windows
 
 1. Download Snake.jar 
-
+6
 2. Make sure you have JVM downloaded if not find ways to download for your operating system
 
 3. Open terminal and type java (space) -5jar (space) and drag the executable jar file in and press enter 
