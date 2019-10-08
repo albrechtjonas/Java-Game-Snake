@@ -16,7 +16,7 @@ Game Snake made in Java without additional libraries by Dominic Jiang
 
 4. And the game should be ready to go
 
-## Command Center
+## Command Center2
 1
 ## ScreenShot
 
