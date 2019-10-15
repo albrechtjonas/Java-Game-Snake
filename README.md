@@ -10,7 +10,7 @@
 
 - Make sure JDK has been installed
 
-- Open terminal and type java -jar (directory of snake.jar file)
+- Open terminal and type java -jar (directory of Snake.jar file)
 
 ![Screen Shot 2019-10-14 at 17 21 23](https://user-images.githubusercontent.com/49256436/66791008-1e7d7b80-eea7-11e9-898a-314882e99992.png)
 
