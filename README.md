@@ -6,7 +6,7 @@
 
 ## How To Get This Game On Your Device
 
-- Download snake.jar file on your computer
+- Download Snake.jar file on your computer
 
 - Make sure JDK has been installed
 
