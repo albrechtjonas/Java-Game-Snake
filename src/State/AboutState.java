@@ -29,7 +29,7 @@ public class AboutState extends State {
 	private void createObject() {
 		about=new Label(display,0,0,display.getWidth(),200,"About",new Font("TimesRoman",Font.ITALIC,150));
 		
-		version=new Label(display,0,250,display.getWidth(),100,"Version: Oct,10,2019",new Font("TimesRoman",Font.ITALIC,50));
+		version=new Label(display,0,250,display.getWidth(),100,"Version: Aug,12,2017",new Font("TimesRoman",Font.ITALIC,50));
 		
 		developer=new Label(display,0,400,display.getWidth(),100,"Developer: Dominic Jiang",new Font("TimesRoman",Font.ITALIC,50));
 		
