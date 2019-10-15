@@ -41,6 +41,8 @@
 
 ![Screen Shot 2019-10-14 at 17 25 32](https://user-images.githubusercontent.com/49256436/66791256-3e616f00-eea8-11e9-971c-dd7d02dede7e.png)
 
+![Screen Shot 2019-10-14 at 17 25 47](https://user-images.githubusercontent.com/49256436/66791271-5802b680-eea8-11e9-944e-b025592c73d3.png)
+
 # For More Games, Algorithms And Coding Projects
 
 # Check Out My Github Account dominicjiang
