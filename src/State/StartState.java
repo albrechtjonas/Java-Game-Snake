@@ -25,13 +25,16 @@ public class StartState extends State {
 	}
 	
 	private void createObject() {
-		title=new Label(display,0,0,display.getWidth(),200,"Snake",new Font("TimesRoman",Font.ITALIC,150));
 		
-		play=new Button(display,0,300,display.getWidth(),100,"Play",new Font("TimesRoman",Font.ITALIC,75),Action.run);
+		int start=(display.getHeight()-800)/4;
 		
-		help=new Button(display,0,500,display.getWidth(),100,"Help",new Font("TimesRoman",Font.ITALIC,75),Action.help);
+		title=new Label(display,0,start,display.getWidth(),200,"Snake",new Font("TimesRoman",Font.ITALIC,150));
 		
-		about=new Button(display,0,700,display.getWidth(),100,"About",new Font("TimesRoman",Font.ITALIC,75),Action.about);
+		play=new Button(display,0,start+300,display.getWidth(),100,"Play",new Font("TimesRoman",Font.ITALIC,75),Action.run);
+		
+		help=new Button(display,0,start+500,display.getWidth(),100,"Help",new Font("TimesRoman",Font.ITALIC,75),Action.help);
+		
+		about=new Button(display,0,start+700,display.getWidth(),100,"About",new Font("TimesRoman",Font.ITALIC,75),Action.about);
 	}
 	
 	public void tick() {
