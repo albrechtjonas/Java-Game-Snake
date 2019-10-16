@@ -41,6 +41,7 @@ public class Window {
 		frame.setResizable(false);
 		frame.setLocationRelativeTo(null);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getGraphicsConfiguration().getDevice().setFullScreenWindow(frame);
 	}
 	
 	public String getTitle() {
