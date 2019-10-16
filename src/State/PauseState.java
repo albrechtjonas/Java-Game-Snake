@@ -25,13 +25,16 @@ public class PauseState extends State {
 	}
 	
 	private void createObject() {
-		pause=new Label(display,0,0,display.getWidth(),200,"Pause",new Font("TimesRoman",Font.ITALIC,150));
 		
-		restart=new Button(display,0,300,display.getWidth(),100,"Restart",new Font("TimesRoman",Font.ITALIC,75),Action.restart);
+		int start=(display.getHeight()-800)/4;
 		
-		menu=new Button(display,0,500,display.getWidth(),100,"Menu",new Font("TimesRoman",Font.ITALIC,75),Action.start);
+		pause=new Label(display,0,start,display.getWidth(),200,"Pause",new Font("TimesRoman",Font.ITALIC,150));
 		
-		back=new Button(display,0,700,display.getWidth(),100,"Back",new Font("TimesRoman",Font.ITALIC,75),Action.run);
+		restart=new Button(display,0,start+300,display.getWidth(),100,"Restart",new Font("TimesRoman",Font.ITALIC,75),Action.restart);
+		
+		menu=new Button(display,0,start+500,display.getWidth(),100,"Menu",new Font("TimesRoman",Font.ITALIC,75),Action.start);
+		
+		back=new Button(display,0,start+700,display.getWidth(),100,"Back",new Font("TimesRoman",Font.ITALIC,75),Action.run);
 	}
 	
 	public void tick() {
