@@ -72,6 +72,8 @@ public class Display implements Runnable {
 	}
 	
 	private void createHandler() {
+		window.getCanvas().requestFocus();
+		
 		keyActionHandler=new KeyActionHandler();
 		window.getCanvas().addKeyListener(keyActionHandler);
 		
