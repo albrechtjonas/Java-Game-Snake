@@ -27,15 +27,17 @@ public class AboutState extends State {
 	}
 	
 	private void createObject() {
-		about=new Label(display,0,0,display.getWidth(),200,"About",new Font("TimesRoman",Font.ITALIC,150));
+		int start=(display.getHeight()-800)/4;
 		
-		version=new Label(display,0,250,display.getWidth(),100,"Version: Aug,12,2017",new Font("TimesRoman",Font.ITALIC,50));
+		about=new Label(display,0,start,display.getWidth(),200,"About",new Font("TimesRoman",Font.ITALIC,150));
 		
-		developer=new Label(display,0,400,display.getWidth(),100,"Developer: Dominic Jiang",new Font("TimesRoman",Font.ITALIC,50));
+		version=new Label(display,0,start+250,display.getWidth(),100,"Version: Aug,12,2017",new Font("TimesRoman",Font.ITALIC,50));
 		
-		github=new Label(display,0,550,display.getWidth(),100,"Github: Java-Game-Snake",new Font("TimesRoman",Font.ITALIC,50));
+		developer=new Label(display,0,start+400,display.getWidth(),100,"Developer: Dominic Jiang",new Font("TimesRoman",Font.ITALIC,50));
 		
-		back=new Button(display,0,700,display.getWidth(),100,"Back",new Font("TimesRoman",Font.ITALIC,75),Action.start);
+		github=new Label(display,0,start+550,display.getWidth(),100,"Github: Java-Game-Snake",new Font("TimesRoman",Font.ITALIC,50));
+		
+		back=new Button(display,0,start+700,display.getWidth(),100,"Back",new Font("TimesRoman",Font.ITALIC,75),Action.start);
 	}
 	
 	public void tick() {
