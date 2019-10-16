@@ -25,15 +25,17 @@ public class EndState extends State {
 	}	
 	
 	private void createObject() {
-		gameOver=new Label(display,0,0,display.getWidth(),200,"Game Over",new Font("TimesRoman",Font.ITALIC,150));
+		int start=(display.getHeight()-800)/4;
 		
-		int length=display.getRunState().getSnake().getBody().size();
+		gameOver=new Label(display,0,start,display.getWidth(),200,"Game Over",new Font("TimesRoman",Font.ITALIC,150));
 		
-		score=new Label(display,0,300,display.getWidth(),100,"Score "+length,new Font("TimesRoman",Font.ITALIC,75));
+		int length=display.getRunState().getSnake().getBody().size()-6;
 		
-		restart=new Button(display,0,500,display.getWidth(),100,"Restart",new Font("TimesRoman",Font.ITALIC,75),Action.restart);
+		score=new Label(display,0,start+300,display.getWidth(),100,"Score "+length,new Font("TimesRoman",Font.ITALIC,75));
 		
-		menu=new Button(display,0,700,display.getWidth(),100,"Menu",new Font("TimesRoman",Font.ITALIC,75),Action.start);	
+		restart=new Button(display,0,start+500,display.getWidth(),100,"Restart",new Font("TimesRoman",Font.ITALIC,75),Action.restart);
+		
+		menu=new Button(display,0,start+700,display.getWidth(),100,"Menu",new Font("TimesRoman",Font.ITALIC,75),Action.start);	
 	}
 	
 	public void tick() {
