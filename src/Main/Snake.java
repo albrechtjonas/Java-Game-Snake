@@ -1,12 +1,14 @@
 package Main;
 
+import java.awt.Toolkit;
+
 public class Snake {
 	
 	private final String title="Snake";
 	
-	private final int width=820;
+	private int width;
 	
-	private final int height=820;
+	private int height;
 	
 	public Window window;
 	
@@ -17,8 +19,18 @@ public class Snake {
 	}
 	
 	private Snake() {
+		getDimension();
+		
 		window=new Window(title,width,height);
 		display=new Display(window);
 		display.start();
+	}
+	
+	private void getDimension() {
+		Toolkit toolKit=Toolkit.getDefaultToolkit();
+		
+		width=(int)toolKit.getScreenSize().getWidth();
+		
+		height=(int)toolKit.getScreenSize().getHeight();
 	}
 }
