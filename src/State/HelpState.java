@@ -27,15 +27,17 @@ public class HelpState extends State {
 	}
 	
 	private void createObject() {
-		help=new Label(display,0,0,display.getWidth(),200,"Help",new Font("TimesRoman",Font.ITALIC,150));
+		int start=(display.getHeight()-800)/4;
 		
-		one=new Label(display,0,250,display.getWidth(),100,"Use W,S,A,D to move the snake",new Font("TimesRoman",Font.ITALIC,50));
+		help=new Label(display,0,start,display.getWidth(),200,"Help",new Font("TimesRoman",Font.ITALIC,150));
 		
-		two=new Label(display,0,400,display.getWidth(),100,"Press Spacebar to pause the game",new Font("TimesRoman",Font.ITALIC,50));
+		one=new Label(display,0,start+250,display.getWidth(),100,"Use w,s,a,d to move the snake",new Font("TimesRoman",Font.ITALIC,50));
 		
-		three=new Label(display,0,550,display.getWidth(),100,"Try to get as long as possible",new Font("TimesRoman",Font.ITALIC,50));
+		two=new Label(display,0,start+400,display.getWidth(),100,"Press Spacebar to pause the game",new Font("TimesRoman",Font.ITALIC,50));
 		
-		back=new Button(display,0,700,display.getWidth(),100,"Back",new Font("TimesRoman",Font.ITALIC,75),Action.start);
+		three=new Label(display,0,start+550,display.getWidth(),100,"Try to get as long as possible",new Font("TimesRoman",Font.ITALIC,50));
+		
+		back=new Button(display,0,start+700,display.getWidth(),100,"Back",new Font("TimesRoman",Font.ITALIC,75),Action.start);
 	}
 	
 	public void tick() {
